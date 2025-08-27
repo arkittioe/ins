@@ -1,0 +1,25 @@
+{
+  "base_file": "INS(xxx).xlsx",
+  "ref_file": "PaintCalculateFinal-01.xlsx",
+
+  "output": {
+    "folder": "Q:/ins/outputs",
+    "pattern": "INS({num}).xlsx"
+  },
+
+  "columns": {
+    "lookup": {
+      "desc": "D",
+      "sharh": "F",
+      "tol": "H",
+      "vazn": "L"
+    },
+    "output": {
+      "desc": "D",
+      "sharh": "G",
+      "tol": "I",
+      "tedad": "J",
+      "vazn": "K"
+    }
+  }
+}
