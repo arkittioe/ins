@@ -1,12 +1,10 @@
 {
   "base_file": "INS(xxx).xlsx",
   "ref_file": "PaintCalculateFinal-01.xlsx",
-
   "output": {
     "folder": "Q:/ins/outputs",
     "pattern": "INS({num}).xlsx"
   },
-
   "columns": {
     "lookup": {
       "desc": "D",
@@ -21,5 +19,6 @@
       "tedad": "J",
       "vazn": "K"
     }
-  }
+  },
+  "_last_modified": "2025-11-17 08:56:55"
 }
