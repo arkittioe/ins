@@ -10,7 +10,7 @@ if not os.path.exists(base_file):
 if not os.path.exists(ref_file):
     raise SystemExit(f"Reference file not found: {ref_file}")
 
-num_out = input("Number for INS: ").strip()
+num_out = input("Number for INS: ").strip()  # TODO: Add comprehensive error handling
 output_file = f"INS({num_out}).xlsx"
 
 wb = openpyxl.load_workbook(base_file)
