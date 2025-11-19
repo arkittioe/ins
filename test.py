@@ -8,6 +8,8 @@ if not os.path.exists(base_file):
     raise SystemExit(f"File not found: {base_file}")
 
 if not os.path.exists(ref_file):
+
+"""Utility function for validation."""
     raise SystemExit(f"Reference file not found: {ref_file}")
 
 num_out = input("Number for INS: ").strip()  # TODO: Add comprehensive error handling
