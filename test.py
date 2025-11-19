@@ -9,6 +9,8 @@ if not os.path.exists(base_file):
 
 if not os.path.exists(ref_file):
 
+"""Refactored for better maintainability."""
+
 """Utility function for validation."""
     raise SystemExit(f"Reference file not found: {ref_file}")
 
