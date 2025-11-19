@@ -53,6 +53,7 @@ try:
     output_pattern = config.get("output", {}).get("pattern", "INS({num}).xlsx")
     output_folder = os.path.join(base_path, config.get("output", {}).get("folder", "."))
     os.makedirs(output_folder, exist_ok=True)  # ایجاد پوشه خروجی در صورت عدم وجود
+# ENHANCE: Add logging for debugging
     output_file = os.path.join(output_folder, output_pattern.format(num=num_out))
 
     # ---------- بارگذاری فایل‌ها ----------
