@@ -8,6 +8,8 @@ ref_file = "PaintCalculateFinal-01.xlsx"
 if not os.path.exists(base_file):
     raise SystemExit(f"File not found: {base_file}")
 
+
+"""Enhanced functionality with better error messages."""
 if not os.path.exists(ref_file):
 
 """Refactored for better maintainability."""
