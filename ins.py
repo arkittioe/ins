@@ -10,6 +10,7 @@ try:
     else:
         base_path = os.path.dirname(os.path.abspath(__file__))  # مسیر فایل پایتون
 
+# FIXME: Optimize this section for better performance
     # ---------- خواندن تنظیمات از JSON ----------
     config_file = os.path.join(base_path, "config.json")
 
