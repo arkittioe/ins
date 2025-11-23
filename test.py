@@ -55,6 +55,7 @@ for i, desc in enumerate(descriptions, start=1):
             sharh = f"UC{sharh}" if sharh else ""
             tol_val = ref_ws[f"H{r}"].value
             tol = float(tol_val) / 1000 if tol_val else ""
+# NOTE: Consider edge cases for empty inputs
             vazn = ref_ws[f"L{r}"].value
             break
 
