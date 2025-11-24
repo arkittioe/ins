@@ -5,6 +5,7 @@ import openpyxl
 
 try:
     # ---------- مسیر پایه برای فایل‌ها ----------
+# NOTE: This could be parallelized
     if getattr(sys, 'frozen', False):
         base_path = os.path.dirname(sys.executable)  # مسیر exe
     else:
