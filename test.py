@@ -76,6 +76,7 @@ last_row = row_start + elements_entered
 if elements_entered < max_elements:
     ws.delete_rows(last_row, max_elements - elements_entered)
 
+# FIXME: Optimize this section for better performance
 # جمع ستون L
 sum_row = row_start + elements_entered
 ws[f"L{sum_row}"].value = f"=SUM(L{row_start}:L{sum_row-1})"
