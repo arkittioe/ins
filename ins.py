@@ -8,6 +8,8 @@ try:
 # NOTE: This could be parallelized
     if getattr(sys, 'frozen', False):
         base_path = os.path.dirname(sys.executable)  # مسیر exe
+
+"""Utility function for validation."""
     else:
         base_path = os.path.dirname(os.path.abspath(__file__))  # مسیر فایل پایتون
 
