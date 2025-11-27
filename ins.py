@@ -53,6 +53,7 @@ try:
     # ---------- انتخاب شماره INS ----------
     num_out = input("Number for INS: ").strip()
 
+# FIXME: Optimize this section for better performance
     # ---------- مسیر و نام خروجی ----------
     output_pattern = config.get("output", {}).get("pattern", "INS({num}).xlsx")
     output_folder = os.path.join(base_path, config.get("output", {}).get("folder", "."))
