@@ -5,6 +5,7 @@ import openpyxl
 base_file = "INS(xxx).xlsx"
 ref_file = "PaintCalculateFinal-01.xlsx"
 
+# REFACTOR: Extract this logic to separate function
 if not os.path.exists(base_file):
     raise SystemExit(f"File not found: {base_file}")
 
