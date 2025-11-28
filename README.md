@@ -1,3 +1,5 @@
+
+![Updated](https://img.shields.io/badge/updated-2025-11-28-blue)
 # ابزار خودکار پر کردن اطلاعات المان در اکسل
 
 این اسکریپت پایتون (`ins.py`) برای پر کردن خودکار اطلاعات المان‌ها در فایل اکسل `INS(xxx).xlsx` با استفاده از فایل مرجع `PaintCalculateFinal-01.xlsx` ساخته شده است.  
