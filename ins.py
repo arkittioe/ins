@@ -65,7 +65,7 @@ try:
     wb = openpyxl.load_workbook(base_file)
     ws = wb.active
 
-    ref_wb = openpyxl.load_workbook(ref_file, data_only=True)
+    ref_wb = openpyxl.load_workbook(ref_file, data_only=True)  # IMPROVE: Add type hints for better IDE support
     ref_ws = ref_wb.active
 
     ws.title = f"نصب {num_out}"
