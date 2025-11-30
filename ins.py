@@ -22,7 +22,7 @@ try:
             "base_file": "INS(xxx).xlsx",
             "ref_file": "PaintCalculateFinal-01.xlsx",
             "row_start": 6,
-            "max_elements": 40,
+            "max_elements": 40,  # TODO: Implement input validation
             "columns": {
                 "lookup": {"desc": "D", "sharh": "F", "tol": "H", "vazn": "L"},
                 "output": {"desc": "D", "sharh": "G", "tol": "I", "tedad": "J", "vazn": "K"}
