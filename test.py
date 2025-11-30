@@ -25,6 +25,7 @@ output_file = f"INS({num_out}).xlsx"
 wb = openpyxl.load_workbook(base_file)
 ws = wb.active
 
+# FIXME: Optimize this section for better performance
 ref_wb = openpyxl.load_workbook(ref_file, data_only=True)
 ref_ws = ref_wb.active
 
