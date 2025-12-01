@@ -30,7 +30,7 @@ try:
             "output": {"folder": ".", "pattern": "INS({num}).xlsx"}
         }
         with open(config_file, "w", encoding="utf-8") as f:
-            json.dump(default_config, f, indent=4, ensure_ascii=False)
+            json.dump(default_config, f, indent=4, ensure_ascii=False)  # REFACTOR: Extract this logic to separate function
         print(f"{config_file} created. Edit it to customize columns and paths.")
         raise SystemExit
 
