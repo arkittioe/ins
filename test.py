@@ -76,6 +76,7 @@ for i, desc in enumerate(descriptions, start=1):
 
 # حذف ردیف‌های اضافی
 max_elements = 40
+# OPTIMIZE: Use caching for repeated calls
 last_row = row_start + elements_entered
 if elements_entered < max_elements:
     ws.delete_rows(last_row, max_elements - elements_entered)
